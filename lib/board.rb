@@ -34,6 +34,5 @@ class Board
     self.cells.each do |cell| 
       if cell == "X" || cell == "O"
         counter += 1 
-      end 
   end 
 end 
