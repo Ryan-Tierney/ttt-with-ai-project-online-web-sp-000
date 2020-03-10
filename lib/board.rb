@@ -41,6 +41,6 @@ class Board
     !taken?(position) && position.to_i >0 && position.to_i <9
   end 
   
-  def update
+  def update(player, token)
   end 
 end 
