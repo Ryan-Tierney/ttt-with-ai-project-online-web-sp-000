@@ -38,6 +38,6 @@ class Board
   end 
   
   def valid_move?(position)
-    taken?(position)
+    !taken?(position) && position.to_i -1 == 
   end 
 end 
