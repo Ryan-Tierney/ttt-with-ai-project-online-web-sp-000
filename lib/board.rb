@@ -38,5 +38,6 @@ class Board
       true 
     else 
       false 
+    end 
   end 
 end 
