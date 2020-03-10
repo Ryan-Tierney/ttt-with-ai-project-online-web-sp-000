@@ -42,6 +42,6 @@ class Board
   end 
   
   def update(position, player)
-    
+    self.cells(position, player)
   end 
 end 
