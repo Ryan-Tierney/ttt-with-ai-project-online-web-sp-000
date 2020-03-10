@@ -30,6 +30,6 @@ class Board
   end 
   
   def turn_count 
-   self.cells == "X" + self.cells == "O"
+   self.cells.count("X") + self.cells.count("O")
   end 
 end 
