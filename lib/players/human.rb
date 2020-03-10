@@ -1,3 +1,3 @@
-class Human 
+module Human 
   extend Player 
 end 
