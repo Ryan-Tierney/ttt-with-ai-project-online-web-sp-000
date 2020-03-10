@@ -30,9 +30,6 @@ class Board
   end 
   
   def turn_count 
-    counter = 0 
-    self.cells.each do |cell| 
-      if cell == "X" || cell == "O"
-        counter += 1 
+   self.cells == "X" + self.cells == "O"
   end 
 end 
