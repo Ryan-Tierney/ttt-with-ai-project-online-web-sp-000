@@ -34,5 +34,5 @@ class Board
   end 
   
   def taken?(position)
-    
+    self.cells[position.to_i - 1]
 end 
