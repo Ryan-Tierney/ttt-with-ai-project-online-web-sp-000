@@ -1,6 +1,6 @@
 class Game
   
-  attr_reader :board 
+  attr_writer :board 
   
   WIN_COMBINATIONS = [
   [0,1,2],
