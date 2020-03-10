@@ -24,10 +24,16 @@ class Board
   end 
   
   def full?
-    self.cells.all? do |cell| cell == "X" || cell == "O"
+    self.cells.all? do |cell| 
+      cell == "X" || cell == "O"
    end 
   end 
   
   def turn_count 
+    counter = 0 
+    self.cells.each do |cell| 
+      if cell == "X" || cell == "O"
+        counter += 1 
+      end 
   end 
 end 
