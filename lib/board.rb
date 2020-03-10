@@ -33,6 +33,7 @@ class Board
    self.cells.count("X") + self.cells.count("O")
   end 
   
-  def taken? 
+  def taken?(user_input)
+    
   end 
 end 
