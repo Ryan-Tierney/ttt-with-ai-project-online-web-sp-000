@@ -42,6 +42,6 @@ class Board
   end 
   
   def update(position, player)
-    self.cells(position, player)
+    self.cells(position.to_i - 1) = player.token
   end 
 end 
