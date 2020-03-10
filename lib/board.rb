@@ -33,11 +33,6 @@ class Board
    self.cells.count("X") + self.cells.count("O")
   end 
   
-  def taken?(user_input)
-    if self.cells == "X" || self.cells == "O"
-      true 
-    else 
-      false 
-    end 
-  end 
+  def taken?(position)
+    
 end 
