@@ -4,7 +4,7 @@ class Game
   
   def initialize(board = Board.new, player_1 = Players::Human, player_2 = Players::Human)
     @board  = board 
-    display_board
+    board.display
     @player_1 = player_1
     @player_2 = player_2
   end 
