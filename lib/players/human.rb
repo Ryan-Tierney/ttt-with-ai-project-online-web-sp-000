@@ -1,3 +1,4 @@
-module Human 
-  extend Player 
+module Players 
+  class Human
+end 
 end 
