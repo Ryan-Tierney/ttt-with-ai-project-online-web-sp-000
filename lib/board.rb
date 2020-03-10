@@ -34,6 +34,9 @@ class Board
   end 
   
   def taken?(user_input)
-    
+    if self.cells == "X" || self.cells == "O"
+      true 
+    else 
+      false 
   end 
 end 
