@@ -73,6 +73,6 @@ end
 def play 
   turn until over?
   if won?
-    puts "Congrats "
+    puts "Congrats #{winner}"
 end 
 end 
