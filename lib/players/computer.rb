@@ -18,7 +18,8 @@ module Players
     "7"
     elsif board.cells[7] == " "
     "8"
-    end 
+   end 
+  end 
   
   end 
 end 
