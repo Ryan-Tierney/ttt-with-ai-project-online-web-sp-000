@@ -2,7 +2,7 @@ module Players
   class Computer < Player
     
     def move(board)
-      Game.valid_move?
+    board.valid_move?
     end 
   
   end 
