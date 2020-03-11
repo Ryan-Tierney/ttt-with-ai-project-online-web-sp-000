@@ -23,4 +23,7 @@ class Game
     board.turn_count.odd? ? player_2 : player_1
   end 
   
+  def won? 
+  end 
+  
 end 
