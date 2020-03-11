@@ -56,4 +56,7 @@ def winner
     @board.cells[combination[0]]
   end
 end 
+
+def turn 
+end 
 end 
