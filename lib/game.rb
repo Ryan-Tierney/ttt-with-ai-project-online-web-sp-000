@@ -41,4 +41,7 @@ def draw?
     false 
   end 
 end 
+
+def over?
+end 
 end 
