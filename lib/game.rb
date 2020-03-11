@@ -52,5 +52,7 @@ end
 
 def winner
   if won? 
+    combination = won? 
+    
 end 
 end 
