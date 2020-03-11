@@ -72,5 +72,7 @@ end
 
 def play 
   turn until over?
+  if won?
+    puts "Congrats "
 end 
 end 
