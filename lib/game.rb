@@ -63,6 +63,6 @@ def turn
  if @board.valid_move?(@user_input)
    @board.updatez(@user_input, current_player)
  else 
-  puts ""
+  puts "Please enter a number 1-9"
 end 
 end 
