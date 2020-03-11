@@ -57,10 +57,10 @@ def winner
   end
 end 
 
-def turn(input)
+def turn
   puts "Please enter a number 1-9"
  @user_input = current_player.move(@board)
  if @board.valid_move?(@user_input)
-   @board.updatez()
+   @board.updatez(user_input, current_player)
 end 
 end 
