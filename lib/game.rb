@@ -59,6 +59,6 @@ end
 
 def turn(input)
   puts "Please enter a number 1-9"
- @user_input = gets.strip
+ @user_input = current_player.move
 end 
 end 
