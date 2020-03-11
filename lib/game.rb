@@ -60,6 +60,7 @@ end
 def turn(input)
   puts "Please enter a number 1-9"
  @user_input = current_player.move(@board)
- if @board.valid_move?
+ if @board.valid_move?(@user_input)
+   
 end 
 end 
