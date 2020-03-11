@@ -33,4 +33,7 @@ class Game
   end 
   return false 
 end 
+
+def draw? 
+end 
 end 
