@@ -53,6 +53,6 @@ end
 def winner
   if won? 
     combination = won? 
-    
+    @board[combination[0]]
 end 
 end 
