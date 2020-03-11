@@ -31,5 +31,6 @@ class Game
       return combination
     end 
   end 
-  
+  return false 
+end 
 end 
