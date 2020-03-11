@@ -74,5 +74,8 @@ def play
   turn until over?
   if won?
     puts "Congrats #{winner}"
+  elsif 
+    puts "cat's game"
+  end 
 end 
 end 
