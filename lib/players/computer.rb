@@ -1,5 +1,5 @@
 module Players 
-  class Computer < Players
+  class Computer < Player
   
   end 
 end 
