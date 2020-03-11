@@ -53,6 +53,7 @@ end
 def winner
   if won? 
     combination = won? 
-    @board[combination[0]]
+    @board.cells[combination[0]]
+  end
 end 
 end 
