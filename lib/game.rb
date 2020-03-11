@@ -75,7 +75,7 @@ def play
   if won?
     puts "Congratulations #{winner}!"
   elsif 
-    puts "cat's game"
+    puts "Cat's Game!"
   end 
 end 
 end 
