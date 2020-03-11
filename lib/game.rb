@@ -57,6 +57,8 @@ def winner
   end
 end 
 
-def turn 
+def turn(input)
+  puts "please enter a number 1-9"
+  input = gets.strip
 end 
 end 
