@@ -2,7 +2,8 @@ module Players
   class Computer < Player
     
     def move(board)
-    if b
+    if board.cells[4] == " "
+      "5"
     end 
   
   end 
