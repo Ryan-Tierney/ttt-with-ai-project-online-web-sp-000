@@ -25,7 +25,10 @@ class Game
   
   def won? 
     WIN_COMBINATIONS.each do |win_combo| 
-      
+       if @board.cells[combination[0]] == @board.cells[combination[1]] &&
+          @board.cells[combination[1]] == @board.cells[combination[2]] &&
+          @board.taken?(combination[0]+1)
+      return win_combo
   end 
   
 end 
