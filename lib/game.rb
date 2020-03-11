@@ -67,4 +67,6 @@ def turn
   @board.display
   turn
 end 
+  @board.display
+end 
 end 
